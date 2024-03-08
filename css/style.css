@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a,
+span,
+b,
+button {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+/* Product */
+
+.products {
+    padding: 90px 0 133px;
+    
+}
+
+.product-titles {
+    text-align: center;
+    line-height: normal;
+    font-style: normal;
+}
+
+.product-titles>*:not(:first-child) {
+    margin-top: 10px;
+}
+
+.title-2 {
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #999;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.products-row {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+
+.product {
+    width: 270px;
+    text-align: center;
+}
+
+.product>*:not(:first-child) {
+    margin-top: 12px;
+}
+
+.product-image {
+    height: 350px;
+    overflow: hidden;
+}
+
+.product-title {
+    color: #000;
+    /* text-align: center; */
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price {
+    color: #999;
+    /* text-align: center; */
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.new-price {
+    color: #F72464;
+    font-weight: 700;
+}
+
+.price>*:not(:first-child) {
+    margin-left: 10px;
+}
+
+.products-button {
+    text-align: center;
+}
+
+.button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+
+    color: #777;
+    /* text-align: center; */
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    padding: 9px 0 12px;
+
+    border-radius: 4px;
+    border: 1px solid #F72464;
+    background: #FFF;
+}
+
+/* Container */
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 0 15px;
+}
